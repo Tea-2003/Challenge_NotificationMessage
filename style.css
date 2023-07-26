@@ -6,13 +6,14 @@ body {
 
 .container {
     max-width: 620px;
-    margin: 50px auto;
+    margin: 0px auto;
     background: #fff;
     padding: 26px 16px 56px;
 }
 
 .title-notify {
     display: flex;
+    align-items: center;
     padding-bottom: 24px;
 }
 
@@ -39,7 +40,7 @@ body {
 }
 
 .btn {
-    padding: 4px 9px;
+    padding: 3px 9px;
     border-radius: 8px;
     background: #0A317B;
     color: #fff;
@@ -54,6 +55,7 @@ body {
     cursor: pointer;
     margin-bottom: 16px;
     background-color: #F7FAFD;
+    border-radius: 8px ;
 }
 
 .color-unread {
@@ -71,10 +73,10 @@ body {
     margin-bottom: 100px;
 }
 .nathan{
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 .kimberly{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .text-time {
     margin-bottom: 12px;
@@ -84,7 +86,7 @@ body {
 }
 .avata img {
     padding: 0px;
-    margin-left: 202px;
+    margin-left: 195px;
     margin-bottom: -32px;
 }
 
@@ -111,7 +113,7 @@ img {
 .status {
     color: #5E6778;
     font-family: Roboto, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
 }
 
