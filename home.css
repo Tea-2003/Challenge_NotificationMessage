@@ -1,9 +1,11 @@
-body{
+body {
     width: auto;
     height: auto;
-    background: #F6FAFD;;
+    background: #F6FAFD;
+    ;
 }
-.container{
+
+.container {
     max-width: 620px;
     margin: 0 auto;
     background: #fff;
@@ -11,23 +13,26 @@ body{
     border-radius: 16px;
 }
 
-.notify{
+.notify {
     display: flex;
     align-items: end;
     gap: 383px;
     margin-bottom: 23px;
 }
-.title-notify{
+
+.title-notify {
     display: flex;
     gap: 10px;
 }
-.text{
+
+.text {
     color: #000;
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 700;
 }
-.btn{
+
+.btn {
     padding: 4px 9px;
     border-radius: 8px;
     background: #0A317B;
@@ -38,7 +43,7 @@ body{
     line-height: 18px;
 }
 
-.read-all-notify{
+.read-all-notify {
     color: #5E6778;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -47,20 +52,23 @@ body{
     cursor: pointer;
 }
 
-.list-notifi{
+.list-notifi {
     cursor: pointer;
 }
-.list-unread{
+
+.list-unread {
     display: flex;
     gap: 16px;
     border-radius: 8px;
     background: #F7FAFD;
     margin: 0 0 16px 0;
 }
-img{
+
+img {
     padding: 16px 0 16px 16px;
 }
-.avata img{
+
+.avata img {
     padding: 0;
     display: flex;
     align-items: center;
@@ -68,7 +76,8 @@ img{
     margin-top: 16px;
     margin-left: 205px;
 }
-.name{
+
+.name {
     color: #1C202B;
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -76,7 +85,7 @@ img{
     line-height: 18.2px;
 }
 
-.status{
+.status {
     color: #5E6778;
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -85,35 +94,43 @@ img{
     line-height: 18.2px;
 }
 
-.club{
-color: #5E6778;
-font-family: Roboto, sans-serif;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 18.2px;
-}
-.btn-notify img{
-    
-
+.club {
+    color: #5E6778;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
 }
 
-.time{
+.btn-notify{
+    padding: 4px;
+    border-radius: 8px;
+    background: red;
+}
+
+.time {
     color: #939DAE;
     font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18.2px;
 }
-.title-unread{}
-.sub-title{
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-right: 43px;
+}
+
+.sub-title {
     border-radius: 4.8px;
     border: 1px solid #E5EFFA;
     margin: 17px 16px 16px 0;
-    
+
 }
 
-.sub-title div{
+.sub-title div {
     margin: 16px 42px 15px 16px;
     color: #5E6778;
     font-family: Roboto, sans-serif;
@@ -122,12 +139,44 @@ line-height: 18.2px;
     line-height: 18.2px;
 }
 
-.list-read{
+.list-read {
     display: flex;
     gap: 16px;
     margin: 16px;
     margin: 0 0 16px 0;
 }
-.title-read{
+
+.title-read {
     margin: 16px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    body{
+        margin: 0;
+    }
+    .notify {
+        display: flex;
+        align-items: end;
+        gap: 112px;
+        margin-bottom: 23px;
+    }
+
+    .btn {
+        padding: 3px 9px;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+    }
+
+    .list-read {
+        
+        gap: 16px;
+        margin: 16px;
+        margin: 0 0 16px 0;
+    }
+    .avata img {
+        margin-left: 20px;
+    }
+    
 }
