@@ -119,8 +119,8 @@ img {
 
 .title{
     display: flex;
-    align-items: center;
-    margin-right: 43px;
+    gap: 10px;
+    align-items: baseline;
 }
 
 .sub-title {
@@ -177,6 +177,10 @@ img {
     }
     .avata img {
         margin-left: 20px;
+    }
+    .title{
+        justify-content: center;
+        margin-right: 43px;
     }
     
 }
