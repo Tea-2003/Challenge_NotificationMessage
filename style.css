@@ -2,6 +2,9 @@ body {
     width: auto;
     height: auto;
     background: #F6FAFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -40,7 +43,7 @@ body {
 }
 
 .btn {
-    padding: 3px 9px;
+    padding: 2px 9px;
     border-radius: 8px;
     background: #0A317B;
     color: #fff;
@@ -86,8 +89,8 @@ body {
 }
 .avata img {
     padding: 0px;
-    margin-left: 195px;
-    margin-bottom: -32px;
+    margin-left: 198px;
+    margin-bottom: -20px;
 }
 
 img {
@@ -133,7 +136,7 @@ img {
 
 .sub-text div {
     width: 500px;
-    padding: 17px 0px 16px 17px;
+    padding: 17px 13px 16px 17px;
     color: #5E6778;
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -146,6 +149,9 @@ img {
 
 
 @media screen and (max-width: 768px) {
+    /* body {
+        padding: 0px;
+    } */
     .container {
         padding: 24px 16px 85px;
     }
@@ -179,7 +185,7 @@ img {
 
     .avata img {
         position: absolute;
-        margin-left: 195px;
-        margin-top: -15px;
+        margin-left: 198px;
+        margin-top: -20px;
     }
 }
