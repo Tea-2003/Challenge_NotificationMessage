@@ -2,35 +2,47 @@ body {
     width: auto;
     height: auto;
     background: #F6FAFD;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .container {
     max-width: 620px;
-    margin: 0px auto;
+    margin: 0 auto;
     background: #fff;
     padding: 26px 16px 56px;
     border-radius: 16px;
 }
 
-.title-notify {
+.notify {
     display: flex;
-    align-items: center;
-    padding-bottom: 24px;
+    align-items: end;
+    gap: 383px;
+    margin-bottom: 23px;
 }
 
-.title {
+.title-notify {
+    display: flex;
+    gap: 10px;
+}
+
+.text {
     color: #000;
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 700;
-    padding: 26px 16px;
 }
 
-.sub-title {
-    padding-left: 340px;
+.btn {
+    padding: 4px 9px;
+    border-radius: 8px;
+    background: #0A317B;
+    color: #DDE7EE;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.read-all-notify {
     color: #5E6778;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -39,85 +51,29 @@ body {
     cursor: pointer;
 }
 
-.sub-title:hover {
-    color: #000;
+.list-notifi {
+    cursor: pointer;
 }
 
-.btn {
-    padding: 4px 9px;
-    border-radius: 8px;
-    color: #DDE7EE;
-    font-family: Roboto,sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    background: #0A317B;
-}
-
-/* .list-notify{
-   padding: 23px 16px;
-} */
 .list-unread {
     display: flex;
-    align-items: center;
-    cursor: pointer;
-    margin-bottom: 16px;
-    background-color: #F7FAFD;
-    border-radius: 8px ;
-}
-
-.color-unread {
-    background-color: #FFF;
-}
-
-.list-none {
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
-    cursor: pointer;
-}
-
-.hasandu {
-    margin-bottom: 100px;
-}
-
-.nathan{
-    margin-bottom: 28px;
-}
-
-.kimberly{
-    margin-bottom: 15px;
-}
-
-.text-time {
-    margin-bottom: 24px;
-}
-
-.text-time-kimberly{
-    margin-bottom: 12px;
-    display: flex;
-    
-}
-
-.annakim{
-    margin-bottom: 25px;
-}
-
-.avata img {
-    padding: 0px;
-    margin-left: 201px;
+    gap: 16px;
+    border-radius: 8px;
+    background: #F7FAFD;
+    margin: 0 0 16px 0;
 }
 
 img {
-    padding: 16px;
+    padding: 16px 0 16px 16px;
 }
 
-.time {
-    display: block;
-    color: #939DAE;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-
+.avata img {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    margin-left: 205px;
 }
 
 .name {
@@ -125,93 +81,129 @@ img {
     font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: 700;
+    line-height: 18.2px;
 }
 
 .status {
     color: #5E6778;
     font-family: Roboto, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
+    line-height: 18.2px;
 }
 
 .club {
     color: #5E6778;
     font-family: Roboto, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
+    line-height: 18.2px;
 }
-
-
-.sub-text {
-    border-radius: 4.8px;
-    border: 1px solid #E5EFFA;
-    padding: 7px 0px;
-}
-
-.sub-text div {
-    width: auto;
-    padding: 17px 6px 16px 17px;
+.club-nathan{
     color: #5E6778;
     font-family: Roboto, sans-serif;
     font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
 }
 
-.btn-notify img {
-    margin-bottom: -15px;
-    margin-left: -10px;
+.btn-notify{
+    padding: 4px;
+    border-radius: 8px;
+    background: red;
+}
+
+.time {
+    color: #939DAE;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+
+.title{
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+   
+}
+
+.title-unread{
+    margin-top: 16px;
+}
+
+.sub-title {
+    border-radius: 4.8px;
+    border: 1px solid #E5EFFA;
+    margin: 17px 16px 16px 0;
+
+}
+
+.sub-title div {
+    margin: 16px 42px 15px 16px;
+    color: #5E6778;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+
+.list-read {
+    display: flex;
+    gap: 16px;
+    margin: 16px;
+    margin: 0 0 16px 0;
+}
+
+.title-read {
+    margin: 16px 0;
 }
 
 
 @media screen and (max-width: 768px) {
-    body {
-        margin: 0px;
-    }
-    .container {
-        padding: 24px 16px 85px;
-    }
 
-    .title {
-        padding: 24px 10px 0 16px;
+    body{
+        margin: 0;
     }
-
-    .sub-title {
-        padding-left: 102px;
+    .container{
+        border-radius: 0;
     }
-
-    .sub-text div {
-        text-align: left;
-        padding: 17px;
-    }
-
-    .hasandu {
-        margin-bottom: 170px;
-    }
-
-    .text-time {
-        margin-top: 12px;
-    }
-    .text-time-kimberly{
-        margin-bottom: 12px;
+    .notify {
         display: flex;
-        
+        align-items: end;
+        gap: 112px;
+        margin-bottom: 23px;
     }
 
-    .btn-notify img {
-        margin-bottom: -15px;
-        margin-left: -10px;
-    }
-
-    .avata img {
-       
-        margin-left: 0px;
-    }
     .btn {
         padding: 3px 9px;
-        border-radius: 8px;
-        color: #DDE7EE;
-        font-family: Roboto,sans-serif;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
-        font-weight: 400;
-        background: #0A317B;
     }
+
+    .list-read {
+        
+        gap: 16px;
+        margin: 16px;
+        margin: 0 0 16px 0;
+    }
+    .avata img {
+        position: absolute;
+        margin-left: -54px;
+    }
+    .title{
+        justify-content: center;
+        margin-right: 28px;
+    }
+    .sub-title div {
+        margin: 16px 17px 16px;
+    }
+    .club-nathan{
+        color: #5E6778;
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.2px;
+    }
+    
 }

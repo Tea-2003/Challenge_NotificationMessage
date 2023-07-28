@@ -14,104 +14,102 @@
     <div class="container">
         <div class="notify">
             <div class="title-notify">
-                <div class="title-notify-left">
-                    <span class="title">Notifications</span>
-                    <span class="btn" id="num-of-notify"></span>
-                </div>
-
-                <div class="title-notify-right">
-                    <span class="sub-title" id="mark-read-all">Mark all as read</span>
-                </div>
+                <div class="text">Notification</div>
+                <div class="btn" id="num-of-notify"></div>
             </div>
+            <div class="read-all-notify" id="mark-read-all">Mark all as read</div>
+        </div>
 
-            <div class="list-notify">
-                <div class="list-unread unread">
-                    <img src="./images/Avt_Mark_Webber.svg" alt="">
-                    <div class="text-time">
+        <div class="list-notifi">
+            <div class="list-unread unread">
+                <div class="img"><img src="./images/Avt_Mark_Webber.svg" alt=""></div>
+                <div class="title">
+                    <div class="title-unread">
                         <span class="name">Mark Webber </span>
                         <span class="status">reacted to your recent post</span>
                         <span class="club">My firt tournament today!</span>
-                        <span class="btn-notify"><img src="./images/Icon_Button_Red.svg" alt="icon"></span>
-                        <span class="time" id="notify-time">1m ago</span>
+                        <div class="time">1m ago</div>
                     </div>
+                    <div class="btn-notify"></div>
                 </div>
+            </div>
 
-                <div class="list-unread unread">
-                    <img src="./images/Avt_Angela_Gray.svg" alt="">
-                    <div class="text-time">
+            <div class="list-unread unread">
+                <img class="img" src="./images/Avt_Angela_Gray.svg" alt="">
+
+                <div class="title">
+                    <div class="title-unread">
                         <span class="name">Angela Gray </span>
                         <span class="status">followed you</span>
-                        <span class="btn-notify"><img src="./images/Icon_Button_Red.svg" alt="icon"></span>
-                        <span class="time" id="notify-time">5m ago</span>
+                        <div class="time">5m ago</div>
                     </div>
+                    <div class="btn-notify"></div>
                 </div>
+            </div>
 
-                <div class="list-unread unread">
-                    <img src="./images/Avt_Jacob_Thompson.svg" alt="">
-                    <div class="text-time">
+            <div class="list-unread unread">
+                <div class="img"><img src="./images/Avt_Jacob_Thompson.svg" alt=""></div>
+                <div class="title">
+                    <div class="title-unread">
                         <span class="name">Jacob Thompson</span>
                         <span class="status">has joined your group</span>
                         <span class="club">Chess Club</span>
-                        <span class="btn-notify"><img src="./images/Icon_Button_Red.svg" alt="icon"></span>
-                        <span class="time" id="notify-time">1 days ago</span>
+                        <div class="time">1 day ago</div>
                     </div>
+                    <div class="btn-notify"></div>
                 </div>
-
-                <div class="list-none">
-                    <img class="hasandu" src="./images/Avt_Rizky_Hasanuddin.svg" alt="">
-                    <div class="text-time">
-                        <span class="name">Rizky Hasanuddin</span>
-                        <span class="status">sent you a private message</span>
-                        <span class="time" id="notify-time">5 days ago</span>
-                        <div class="sub-text">
-                            <div>Hello, thanks for setting up the Chess Club. I've been a member for a few
-                                weeks now and I'm already having lots of fun and improving my game.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="list-none">
-                    <img class="kimberly" src="./images/Avt_Kimberly_Smith.svg" alt="">
-                    <div class="text-time-kimberly">
-                        <div>
-                            <span class="name">Kimberly Smith</span>
-                            <span class="status">commented on your picture</span>
-                            <span class="time" id="notify-time">1 week ago</span>
-
-                        </div>
-                        <div>
-                            <span class="avata"><img src="./images/Avt_Kimberly_Smith_Right.svg" alt=""></span>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="list-none">
-                    <img class="nathan" src="./images/Avt_Nathan_Peterson.svg" alt="">
-                    <div class="text-time">
-                        <span class="name">Nathan Peterson </span>
-                        <span class="status">reacted to your recent post</span>
-                        <span class="club">5 end-game strategies to increase
-                            your win rate</span>
-                        <span class="time" id="notify-time">2 weeks ago</span>
-                    </div>
-                </div>
-
-                <div class="list-none">
-                    <img class="annakim" src="./images/Avt_Anna_Kim.svg" alt="">
-                    <div class="text-time">
-                        <span class="name">Anna Kim </span>
-                        <span class="status">left the group </span>
-                        <span class="club">Chess Club</span>
-                        <span class="time" id="notify-time">2 weeks ago</span>
-                    </div>
-                </div>
-
             </div>
+
+            <div class="list-read">
+                <div class="img"><img src="./images/Avt_Rizky_Hasanuddin.svg" alt=""></div>
+                <div class="title-read">
+                    <span class="name">Rizky Hasanuddin</span>
+                    <span class="status">sent you a private message</span>
+                    <div class="time">5 days ago</div>
+                    <div class="sub-title">
+                        <div>
+                            Hello, thanks for setting up the Chess Club. I've been a member for a
+                            few weeks now and I'm already having lots of fun and improving my game.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-read">
+                <div class="img"><img src="./images/Avt_Kimberly_Smith.svg" alt=""></div>
+                <div class="title-read">
+                    <span class="name">Kimberly Smith</span>
+                    <span class="status">commented on your picture</span>
+                    <div class="time">1 week ago</div>
+                </div>
+                <div class="avata"><img src="./images/Avt_Kimberly_Smith_Right.svg"></div>
+            </div>
+
+            <div class="list-read">
+                <div class="img"><img src="./images/Avt_Nathan_Peterson.svg" alt=""></div>
+                <div class="title-read">
+                    <span class="name">Nathan Peterson </span>
+                    <span class="status">reacted to your recent post</span>
+                    <span class="club-nathan">5 end-game strategies to increase
+                        <div class="time">2 weeks ago</div>
+                </div>
+            </div>
+
+            <div class="list-read">
+                <div class="img"><img src="./images/Avt_Anna_Kim.svg" alt=""></div>
+                <div class="title-read">
+                    <span class="name">Anna Kim </span>
+                    <span class="status">left the group </span>
+                    <span class="club">Chess Club</span>
+                    <div class="time">2 weeks ago</div>
+                </div>
+            </div>
+
+
         </div>
-        <script src="./javascript.js"></script>
+    </div>
+
+    <script src="./javascript.js"></script>
 </body>
 
 </html>

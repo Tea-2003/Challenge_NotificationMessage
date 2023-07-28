@@ -1,4 +1,5 @@
 
+
 const unReadMessages = document.querySelectorAll('.unread');
 const unReadMessagesCount = document.getElementById('num-of-notify');
 const markAll = document.getElementById('mark-read-all');
